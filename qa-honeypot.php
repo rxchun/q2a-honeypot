@@ -33,13 +33,13 @@ class qa_html_theme_layer extends qa_html_theme_base {
 		
 		$this->output_raw("
 		<script>
-			formCase = '\
+			q2aFormCase = '\
 				body.qa-template-register form,\
 				body.qa-template-ask form,\
 				body.qa-template-feedback form\
 			';
 			
-			jQuery(document).on('submit', formCase, function(){
+			jQuery(document).on('submit', q2aFormCase, function(){
 				if(jQuery('input.". $this->honeypotClass ."').prop('checked') != true){
 					return false;
 				} else  {
