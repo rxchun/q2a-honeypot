@@ -4,7 +4,7 @@ Question2Answer Honeypot
 <img src="https://raw.githubusercontent.com/heliochun/q2a-honeypot/main/q2a-honeypot.png" border="0" alt="plugin logo"/>
 
 **Description:**  
-Q2A Honeypot creates a honeypot for Spam Bots, preventing them from auto-fills and continuing user registration.
+Q2A Honeypot creates a honeypot for Spam Bots, preventing them from auto-filling and continuing user registration.
 
 
 Installation
@@ -17,7 +17,7 @@ Installation
  
 Download the plugin
 --------------
-[Buy me a beer][paypal] --- [Download Link][download].
+[Download Link][download] --- [Buy me a beer][paypal].
 
 <a href="https://www.paypal.com/paypalme/chun128" target="_blank"/>
 <img src="https://i.stack.imgur.com/rRaSD.png" border="0" name="submit" alt="Donate with PayPal!"/>

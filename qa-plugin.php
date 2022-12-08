@@ -4,7 +4,7 @@
 	Plugin Name: Q2A Honeypot
 	Plugin URI: https://github.com/heliochun/honeypot
 	Plugin Update Check URI: https://raw.githubusercontent.com/heliochun/q2a-honeypot/master/qa-plugin.php
-	Plugin Description: Creates a honeypot for Spam Bots, Auto-fills, preventing them from registering
+	Plugin Description: Creates a honeypot for Spam Bots, preventing them from auto-filling and continuing user registration.
 	Plugin Version: 1.0
 	Plugin Date: 2022-11-14
 	Plugin Author: Chun
