@@ -12,7 +12,7 @@ class qa_html_theme_layer extends qa_html_theme_base {
 	
 	function doctype(){
 		// Check if it's a page with form
-		if ($this->request=='register' || $this->request=='ask' || $this->request=='feedback') {
+		if (($this->request=='register' || $this->request=='ask' || $this->request=='feedback') && !empty($this->content['form']['fields']) ) {
 			// add checkbox
 			$optionfield = array(
 				'id'	=> $this->honeypotClass,
