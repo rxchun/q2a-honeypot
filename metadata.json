@@ -1,14 +1,15 @@
 {
-    "name": "Q2A Honeypot",
-    "uri": "https://github.com/rxchun/q2a-honeypot",
-    "description": "Creates a honeypot for Spam Bots, preventing them from auto-filling and continuing user registration.",
-    "version": "1.11",
-	"update_date": "2023-01-06",
-    "date": "2022-11-14",
-    "author": "Chun",
-    "author_uri": "https://rxchun.github.io/?ref=q2a-honeypot-github",
-    "license": "GPLv2",
-    "update_uri": "https://raw.githubusercontent.com/rxchun/q2a-honeypot/master/metadata.json",
-    "min_q2a": "1.8.6",
+	"name": "Q2A Honeypot",
+	"uri": "https://github.com/rxchun/q2a-honeypot",
+	"description": "Creates a honeypot for Spam Bots, preventing them from auto-filling and continuing user registration.",
+	"version": "1.12",
+	"date": "2024-11-10",
+
+	"released": "2023-01-06",
+	"author": "Chun",
+	"author_uri": "https://rxchun.github.io/?ref=github-q2a-honeypot",
+	"license": "GPLv2",
+	"update_uri": "https://raw.githubusercontent.com/rxchun/q2a-honeypot/master/metadata.json",
+	"min_q2a": "1.8.6",
 	"load_order": "after_db_init"
 }

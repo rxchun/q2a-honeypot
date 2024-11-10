@@ -2,22 +2,19 @@
 
 class qa_html_theme_layer extends qa_html_theme_base {
 	
-	private $directory;
-	private $honeypotClass = 'fGAWas6';
-
-	public function load_module($directory, $urltoroot)
+	function doctype()
 	{
-		$this->directory = $directory;
-	}
-	
-	function doctype(){
+		// Generate random Class name
+		global $honeypotClass;
+		$honeypotClass = substr(str_shuffle('abcdefghijklmnopqrstuvwxyz'), 1, 1) . substr(str_shuffle('0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'), 1, 9);
+		
 		// Check if it's a page with form
 		if (($this->request=='register' || $this->request=='ask' || $this->request=='feedback') && !empty($this->content['form']['fields']) ) {
 			// add checkbox
 			$optionfield = array(
-				'id'	=> $this->honeypotClass,
+				'id'	=> $honeypotClass. '" style="display:none;',
 				'label' => '',
-				'tags'	=> 'name="contact_me_by_fax_only" class="'. $this->honeypotClass .'" dir="auto" tabindex="-1" autocomplete="off" type="checkbox" value="1" checked="" style="display:none;"',
+				'tags'	=> 'name="contact_me_by_fax_only" class="'. $honeypotClass .'" dir="auto" tabindex="-1" autocomplete="off" type="checkbox" value="1" checked="" style="display:none;"',
 				'type' 	=> 'checkbox',
 			);
 			$this->content['form']['fields']['honeypot'] = $optionfield;
@@ -26,10 +23,11 @@ class qa_html_theme_layer extends qa_html_theme_base {
 		qa_html_theme_base::doctype();
 	}
 	
-	
-
-	function body_suffix() {
+	function body_suffix()
+	{
 		qa_html_theme_base::body_suffix();
+		
+		global $honeypotClass;
 		
 		$this->output_raw("
 		<script>
@@ -39,8 +37,8 @@ class qa_html_theme_layer extends qa_html_theme_base {
 				body.qa-template-feedback form\
 			';
 			
-			jQuery(document).on('submit', q2aFormCase, function(){
-				if(jQuery('input.". $this->honeypotClass ."').prop('checked') != true){
+			jQuery(document).on('submit', q2aFormCase, () => {
+				if(jQuery('input.". $honeypotClass ."').prop('checked') != true) {
 					return false;
 				} else  {
 					return true;
