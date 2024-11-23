@@ -10,6 +10,7 @@
 	"author_uri": "https://rxchun.github.io/?ref=github-q2a-honeypot",
 	"license": "GPLv2",
 	"update_uri": "https://raw.githubusercontent.com/rxchun/q2a-honeypot/master/metadata.json",
+	"max_q2a": "1.8.8",
 	"min_q2a": "1.8.6",
 	"load_order": "after_db_init"
 }
