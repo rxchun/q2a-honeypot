@@ -2,7 +2,7 @@
 	"name": "Q2A Honeypot",
 	"uri": "https://github.com/rxchun/q2a-honeypot",
 	"description": "Creates a honeypot for Spam Bots, preventing them from auto-filling and continuing user registration.",
-	"version": "1.12",
+	"version": "1.0.2",
 	"date": "2024-11-10",
 
 	"released": "2023-01-06",
