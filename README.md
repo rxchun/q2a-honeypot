@@ -12,7 +12,7 @@ Installation
 
  1. Download the plugin from the repository.
  2. Unzip archive to any local folder
- 3. Upload `q2a-honeypot` folder to your qa-plugin folder on your installation, and that's it. You«re all set.
+ 3. Upload `q2a-honeypot` folder to your qa-plugin folder on your installation, and that's it. You're all set.
 
 
 Download the plugin
