@@ -19,8 +19,8 @@ Download the plugin
 --------------
 [Buy me a coffee][paypal] --- [Download Link][download].
 
-<a href="https://www.paypal.com/paypalme/chun128" target="_blank"/>
-<img src="https://i.ibb.co/Rz9rfk4/bmc-button.png" border="0" name="submit" alt="Donate with PayPal!"/>
+<a href="https://www.paypal.com/paypalme/chun128" target="_blank" title="Buy me a coffee :)"/>
+<img src="https://i.ibb.co/jPnJ3ZpG/bmac180.png" border="0" name="submit" alt="Buy me a coffee with PayPal!"/>
 <a/>
 
 About q2A
