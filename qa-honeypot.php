@@ -25,7 +25,7 @@ class qa_html_theme_layer extends qa_html_theme_base {
 				'id'    => $this->honeypotClassText,
 				'label' => '',
 				'tags'  => 'name="' . $this->honeypotClassText . '" class="' . $this->honeypotClassText . '" ' .
-						   'type="text" style="display:none;" tabindex="-1" autocomplete="off"',
+						'type="text" style="display:none;" tabindex="-1" autocomplete="off"',
 				'type'  => 'text',
 			];
 			
@@ -33,7 +33,7 @@ class qa_html_theme_layer extends qa_html_theme_base {
 				'id'    => $this->honeypotClassCheckbox. '" style="display:none;',
 				'label' => '',
 				'tags'  => 'name="contact_me_by_fax_only" class="' . $this->honeypotClassCheckbox . '" ' .
-						   'type="checkbox" autocomplete="off" dir="auto" tabindex="-1" value="1" checked="" style="display:none;"',
+						'type="checkbox" autocomplete="off" dir="auto" tabindex="-1" value="1" checked="" style="display:none;"',
 				'type'  => 'checkbox',
 			];
 		}
